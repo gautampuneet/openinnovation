@@ -1,5 +1,5 @@
-fastapi
-uvicorn
+fastapi==0.112.2
+uvicorn==0.32.0
 pandas
 numpy
 pillow
@@ -8,3 +8,5 @@ sqlalchemy
 pytest
 httpx
 pydantic
+python-multipart==0.0.13
+contextvars==2.4

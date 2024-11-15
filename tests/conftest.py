@@ -4,7 +4,7 @@ from sqlalchemy.orm import sessionmaker
 from src.database import Base, SessionLocal
 from src.main import app
 from fastapi.testclient import TestClient
-from src.models import image_frame
+from src.image_processor.models import image_frame
 
 DATABASE_URL = "sqlite:///./test.db"
 

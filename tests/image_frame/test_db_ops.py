@@ -1,4 +1,4 @@
-from src.db_ops.image_frame_db_ops import ImageFrameOps
+from src.image_processor.db_ops.image_frame_db_ops import ImageFrameOps
 from tests.conftest import TestingSessionLocal
 from ..constants import Constants
 

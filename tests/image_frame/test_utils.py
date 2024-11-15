@@ -1,5 +1,5 @@
 import numpy as np
-from src.utils.image_frame_utils import ImageProcessor
+from src.image_processor.utils.image_frame_utils import ImageProcessor
 
 def test_resize_image():
     original_width = 200

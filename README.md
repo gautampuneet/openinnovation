@@ -1,6 +1,6 @@
 # FastAPI Project
 
-This project is a FastAPI application that processes image data and exposes an API for various operations, including resizing images, storing them in a database, and applying custom color maps.
+This project is a FastAPI application that processes image data and exposes API's for various operations, including resizing images, storing them in a database, and applying custom color maps.
 
 ## Requirements
 
@@ -44,4 +44,9 @@ docker run -d -p 8000:8000 --name fastapi-container fastapi-app
 ###Access app
 http://localhost:8000/docs
 
-pytest --cov=src
+```
+
+### Run Unit Test Case
+```bash
+pytest
+```

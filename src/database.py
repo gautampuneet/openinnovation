@@ -1,7 +1,7 @@
 from sqlalchemy import create_engine
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
-from src.models import image_frame
+from src.image_processor.models import image_frame
 
 DATABASE_URL = "sqlite:///./imageframe.db"
 

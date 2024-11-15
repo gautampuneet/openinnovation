@@ -1,8 +1,8 @@
-from src.services.image_frame_service import ImageService
+from src.image_processor.services.image_frame_service import ImageService
 from ..constants import Constants
 
 def test_process_csv(db):
-    with open("data/book1.csv") as file:
+    with open("data/img.csv") as file:
         csv_data = file.read()
         image_service = ImageService()
         file_id = image_service.process_csv(csv_data)
